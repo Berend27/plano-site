@@ -9,18 +9,67 @@
     font-family: Helvetica, Verdana, Tahoma, sans-serif;
 }
 
-#banner h1, #spacer h1 {
+#banner h1, #invisible-banner h1 {
     padding: 16px;
     text-align: center;
 }
 
-#banner img, #spacer img {
+#banner img, #invisible-banner img {
     float: left;
     height: 142px;
+}
+
+#invisible-banner {
+    visibility: hidden;
+    margin-top: -1.7%;
+    width: 100%;
+    height: 142px;
+}
+
+#navbar {
+    width: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 16px auto;
+    padding-left: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    float: left;
+    margin: 0 0.5em 0.4em 0;
+    text-align: center;
+    width: 20%;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .3em;
+}
+
+li.changeBackground {
+    background-color: #0a2c74;
+}
+
+li.changeBackground:hover {
+    background-color: dodgerblue;
+}
+
+p.clear-float {
+    clear: both;
 }
 
 body {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
 }
