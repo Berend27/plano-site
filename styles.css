@@ -65,6 +65,9 @@
     color: white;
     text-decoration: none;
     display: block;
+    font-family: Georgia, Times, serif;
+    font-size: 1.1em;
+    font-weight: 700;
     padding: .3em;
 }
 
@@ -80,11 +83,11 @@
 }
 
 li.changeBackground {
-    background-color: #0a2c74;
+    background-color: forestgreen;
 }
 
 li.changeBackground:hover {
-    background-color: dodgerblue;
+    background-color: limegreen;
 }
 
 p.clear-float {
