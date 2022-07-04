@@ -68,6 +68,17 @@
     padding: .3em;
 }
 
+#sidebar {
+    width: 29%;
+    float: right;
+}
+
+#sidebar h3 {
+    color: #0a2c74;
+    font-family: Tahoma, sans-serif;
+    margin-bottom: -14px;
+}
+
 li.changeBackground {
     background-color: #0a2c74;
 }
